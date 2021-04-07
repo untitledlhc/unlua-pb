@@ -14,6 +14,7 @@ public class LuaProtobuf : ModuleRules
 
 		bEnableShadowVariableWarnings = false;
 		bEnableUndefinedIdentifierWarnings = false;
+		PublicDefinitions.Add("PB_IMPLEMENTATION");
 
 	}
 }
